@@ -1,5 +1,6 @@
 {
   "name": "monsters-rolodex",
+  "description": "yet another monsters-rolodex filtering App",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
