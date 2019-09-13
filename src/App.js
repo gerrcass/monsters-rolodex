@@ -23,8 +23,8 @@ class App extends React.Component{
   }
 
   render(){
-    const filteredMonsters = this.state.monsters.filter(monsterName => 
-      monsterName.name.toLowerCase().includes(this.state.textSearchField.toLowerCase())
+    const filteredMonsters = this.state.monsters.filter(monster => 
+      monster.name.toLowerCase().includes(this.state.textSearchField.toLowerCase())
     )
     return <div className={Styles.container}>
       <h1>Monsters Rolodex</h1>
