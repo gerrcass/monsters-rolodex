@@ -8,7 +8,7 @@ const SelectImageSet = ({imageSet,onImageSetChange,imageSetAvailable}) => {
             {/* <label>
                 Pick your favorite Image Set:
             </label> */}
-            <select className={styles['select-css']} onChange={onImageSetChange}>
+            <select className={styles['select-css']} value={imageSet} onChange={onImageSetChange}>
                 {/* <option value={valueSet[0]}>{valueSet[0].title}</option>
                 <option value={valueSet[1]}>{valueSet[1].title}</option> */}
                 {
